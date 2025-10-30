@@ -2,8 +2,9 @@
   "name": "login-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "main": "server.js",  "scripts": {
+    "start": "node server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "@types/node": "^24.9.1"
   },
   "dependencies": {
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
   }
 }
