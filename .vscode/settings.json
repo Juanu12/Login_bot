@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/9645f776-4be9-446a-bdee-4119e14f7cbb/resourceGroups/Yeminusapp/providers/Microsoft.Web/sites/Playwright",
+    "appService.deploySubpath": "."
+}
